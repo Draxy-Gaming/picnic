@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Picnic Website</title>
+</head>
+<body>
+  
+  <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Picnic Paradise</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="details.html">Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forms.gle/qt5NRkkKfeKqhFy5A">Registration</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1>Picnic Paradise</h1>
+        <p>Join us for a day of fun and relaxation!</p>
+    </header>
+  <div class="alert" id="importantNotice">
+        <span class="close-btn" onclick="closeAlert()">&times;</span>
+        <strong>Important Notice:</strong> Read full picnic details <a href="details.html">here.</a>
+    </div>
+    <section id="picnic-info">
+        <h2>Picnic Details</h2>
+        <p>Date: 17th Feb, 2024</p>
+        <p>Location: মহাস্থানগড়</p>
+        <p>Time: 6am to 11pm (Approx.)</p>
+    </section>
+<section id="download-schedule">
+    <h2>Download Time Schedule</h2>
+    <a href="schedule.PNG" download="TimeSchedule">
+        <button id="downloadBtn">Download Schedule</button>
+    </a>
+</section>
+    <section id="registration">
+        <h2>Register Now</h2>
+        <p>Don't miss out! Register for the picnic:</p>
+        <button onclick="window.open('https://forms.gle/qt5NRkkKfeKqhFy5A')" id="registerBtn">Register</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For any inquiries, feel free to contact us:</p>
+        <p>Email: draxygamingbd@gmail.com</p>
+        <p>Phone: 01851188777 (Iftekhar)</p>
+        <p>Phone: 01717442421 (Munir Sir)</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Picnic Paradise</p>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
